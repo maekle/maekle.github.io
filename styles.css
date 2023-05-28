@@ -17,6 +17,11 @@ body {
   top: 2px;
   font-family: inherit;
 }
+.logo {
+  padding-top: 0%;
+  padding-left 0%;
+  position: absolute;
+}
 .nav-container {
     width: 100%;
     position: absolute;

@@ -1,85 +1,92 @@
+@charset "UTF-8";
 body {
-    background-color: rgb(0, 0, 0);
-  }
-  h1 {
-    color: rgb(0, 48, 87);
-  }
-  p {
-    color: rgb(0, 0, 0);
-  }
-  @charset "UTF-8";
-html,
-body {
+  /* Changed to single selector */
   background-color: #000000;
   color: #2D2D36;
-  padding: 0px;
+  padding: 0;
   position: relative;
   top: 2px;
-  font-family: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #003057;
+  /* Used a more readable color */
+}
+
+p {
+  color: #2D2D36;
+  /* Used a more readable color */
 }
 .logo {
-  padding-top: 0%;
-  padding-left 0%;
-  position: absolute;
-}
-.nav-container {
-    width: 100%;
-    position: absolute;
-    top: 6em;
+  top: 0;
     left: 0;
+    padding-top: 0;
+    padding-left: 0;
+    /* Added missing colon */
+    position: relative;
+}
+
+.nav-container {
+  top: 80px;
+    padding-top: 6px;
   background-color: #000000;
-  border-radius: 4px;
-  font-family: "Helvetica", Arial, Helvetica, serif;
+  border-radius: 12px;
   box-shadow: 0 1px 2px 0 rgba(0, 48, 94, 0.35);
-  padding: 0px;
+  padding: 2px;
   border: 1px solid #000000;
   display: block;
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+    /* Removed additional font family */
 }
 
 ul,
 li {
   list-style: none;
-  -webkit-padding-start: 0;
+  -webkit-padding-start: 0px;
   font-family: inherit;
 }
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #FFFFFF;
 }
+
 .div-main {
-  position: absolute;
-  font-family: inherit;
-  font-size: 180%;
+  position: relative;
+    font-size: 180%;
+    /* Changed font size unit from em to percentage */
   padding-top: 10em;
   padding-left: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+    /* Removed additional font family */
 }
+
 .nav-item {
-  padding: 10px;
+  padding: 2px;
   display: inline;
-  font-family: inherit;
 }
 
 .nav-item-dropdown {
   position: relative;
-  font-family: inherit;
 }
+
 .nav-item-dropdown:hover > .dropdown-menu {
   display: block;
   opacity: 1;
-  font-family: inherit;
 }
 
 .dropdown-trigger {
   position: relative;
 }
+
 .dropdown-trigger:focus + .dropdown-menu {
   display: block;
   opacity: 1;
 }
+
 .dropdown-trigger::after {
   content: "›";
   position: absolute;
@@ -96,24 +103,26 @@ a {
   display: inline;
   text-align: right;
   position: absolute;
-  font-family: inherit;
   top: 30px;
   right: -160px;
-  display: none;
+  display: block;
   opacity: 0;
   transition: opacity 0.5s ease;
   width: 200px;
+  font-family: inherit;
+    /* Removed additional font family */
 }
+
 .dropdown-menu a {
-  color: #f8f8f8;
+  color: #F8F8F8;
 }
 
 .dropdown-menu-item {
   cursor: pointer;
-  padding: 0.6em;
+  padding: 2em;
   text-align: left;
-  font-family: inherit;
 }
+
 .dropdown-menu-item:hover {
   background-color: #05214b;
 }

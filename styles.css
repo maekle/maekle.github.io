@@ -36,7 +36,7 @@ p {
   box-shadow: 0 1px 2px 0 rgba(0, 48, 94, 0.35);
   padding: 0px;
   border: 1px solid #000000;
-  display: block;
+  display: inline-block;
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
@@ -68,7 +68,7 @@ a {
 
 .nav-item {
   padding: 14px;
-  display: inline;
+  display: inline-block;
 }
 
 .nav-item-dropdown {
@@ -77,11 +77,13 @@ a {
 
 .nav-item-dropdown:hover>.dropdown-menu {
   display: block;
+  position: absolute;
   opacity: 1;
+  z-index: 100;
 }
 
 .dropdown-trigger {
-  position: relative;
+  position: static;
 }
 
 .dropdown-trigger:focus+.dropdown-menu {
@@ -96,8 +98,8 @@ a {
   font-size: 24px;
   font-weight: bold;
   transform: rotate(90deg);
-  top: 20px;
-  right: 20px;
+  top: -20px;
+  right: -20px;
 }
 
 .dropdown-menu {
@@ -105,7 +107,7 @@ a {
   display: inline;
   text-align: right;
   position: absolute;
-  top: 20px;
+  top: 40px;
   right: -160px;
   display: block;
   opacity: 0;

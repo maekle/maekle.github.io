@@ -27,7 +27,15 @@ p {
   padding-left: 0;
   position: relative;
 }
+.tableHead {
+  text-align: left;
+  background-color: aqua;
+}
 
+.tableRow {
+  text-align: left;
+  background-color: bisque;
+}
 .nav-container {
   top: 80px;
   padding-top: 20px;

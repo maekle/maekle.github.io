@@ -48,7 +48,8 @@ a {
 .div-main {
   position: absolute;
   font-family: inherit;
-  padding-top: 6em;
+  font-size: 180%;
+    padding-top: 10em;
   padding-left: 1.8em;
 }
 .nav-item {

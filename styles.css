@@ -126,6 +126,11 @@ a {
 
 }
 
+.contact {
+  text-align: left;
+  padding: 10%;
+}
+
 .nav-item-dropdown:hover>.dropdown-menu {
   display: block;
     padding: 2px;

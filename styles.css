@@ -180,8 +180,9 @@ a {
   background-color: #05214b;
 }
 .footer {
-  position: absolute;
+  position: relative;
   left: 0;
+  height: 50px;
   bottom: -22rem;
   width: 100%;
   background-color: rgb(0, 0, 0);

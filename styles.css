@@ -143,6 +143,7 @@ a {
 .dropdown-trigger::after {
   content: "›";
   position: absolute;
+  display: none;
   color: #fdfafa;
   font-size: 24px;
   font-weight: bold;

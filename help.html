@@ -32,52 +32,24 @@
 				</li>
 			</ul>
 		</div>
+		<p><br></p>
+		<p></p>
 		<div class="div-main">
 			
 			<!-- contact form-->
-
-			<div class="fcf-body">
-
-				<div id="fcf-form">
-				<h3 class="fcf-h3"><h2>Contact us</h2>
+			<form action="https://api.staticforms.xyz/submit" method="post">
+				<input type="text" name="name" placeholder="Your Name"><p></p>
+				<input type="text" name="email" placeholder="Your Email" /><p></p>
+				<textarea name="message" rows="20" cols="60" placeholder="Hi, I'm interested in getting a quote for a 2-color job at quantity of 200 shirts with a 4-inch by 5-inch working area. I would need these by x date."></textarea>
+				<input type="text" name="honeypot" style="display:none">
+				<input type="hidden" name="accessKey" value="3c43c3cd-77c9-482e-b74f-bbd412d2aa5f">
+				<input type="hidden" name="subject" value="Web contact from RealNeat Press " />
+				<input type="hidden" name="replyTo" value="email.michael.noww@gmail.com">
+				<input type="hidden" name="replyTo" value="@">
+				<input type="hidden" name="redirectTo" value="/contact-success.html">
+				<input type="submit" value="Submit" />
+			</form>
 			
-				<form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-					
-					<div class="fcf-form-group">
-						<label for="Name" class="fcf-label"><h7>Your name</h7></label>
-						<div class="fcf-input-group">
-							<input type="text" id="Name" name="Name" class="fcf-form-control" required>
-						</div>
-					</div>
-			
-					<div class="fcf-form-group">
-						<label for="Email" class="fcf-label"><h7>Your email address</h7></label>
-						<div class="fcf-input-group">
-							<input type="email" id="Email" name="Email" class="fcf-form-control" required>
-						</div>
-					</div>
-			
-					<div class="fcf-form-group">
-						<label for="Message" class="fcf-label"><h7>Your message</h7></label>
-						<div class="fcf-input-group">
-							<textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-						</div>
-					</div>
-			
-					<div class="fcf-form-group">
-						<button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-					</div>
-			<br>
-					<div class="fcf-credit" id="fcf-credit">
-					<h8>Thank you for contacting us! <br>We will get back to you as quickly as possible. <br> Please watch your inbox at the e-mail you provided. </h8><br><h8><br>If you have trouble finding e-mails, please check <br> your spam/junk folders.</h8>
-					</div>
-			
-				</form>
-				</div>
-			
-			</div>
-			
-		</div>
 		<div class="footer">
 			<p>Copyright 2023 Real Neat Press, Real Neat Productions, LLC.</p>
 		  </div>

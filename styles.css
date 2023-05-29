@@ -15,6 +15,15 @@ h1 {
   /* Used a more readable color */
 }
 
+h8 {
+  font-size: medium;
+  font-variant:
+}
+
+h8 {
+  font-size: small;
+  font-style: italic;
+}
 p {
   color: #ffffff;
   /* Used a more readable color */

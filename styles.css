@@ -86,6 +86,7 @@ li {
 a {
   text-decoration: none;
     color: #ffffff;
+    cursor: url("/images/reg.png"), auto;
   
   }
   
@@ -93,12 +94,14 @@ a {
     /* mouse over link */
     color: #00587a;
     border-bottom: none;
+    cursor: url("/images/reg.png"), auto;
   }
   
   a:visited {
     /* visited link color on click */
     color: rgb(0, 111, 185) none;
       border-bottom: rgb(0, 0, 0);
+      cursor: url("/images/reg.png"), auto;
 }
 
 .div-main {

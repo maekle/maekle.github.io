@@ -4,7 +4,7 @@ body {
   /* Changed to single selector */
   background-color: #000000;
   color: #ffffff;
-  padding: 0;
+  padding: 10px;
   position: relative;
   top: 2px;
   font-family: Arial, Helvetica, sans-serif;
@@ -28,7 +28,8 @@ p {
   position: relative;
 }
 .tableHead {
-  text-align: left;
+  text-align: none;
+  padding-left: 4px;
   background-color: rgb(1, 23, 32);
     color: #FFFFFF
 }
@@ -36,11 +37,13 @@ p {
 .tableRow {
   text-align: left;
   background-color: rgb(3, 44, 68);
-    color: #FFFFFF;
+    color: #FFFFFF;   
   }
   
   .tableData {
-    color: #FFFFFF
+    color: #FFFFFF; 
+    text-aligh: justify;
+ 
 }
 .nav-container {
   top: 80px;
@@ -75,7 +78,7 @@ a {
   position: relative;
   font-size: 180%;
   /* Changed font size unit from em to percentage */
-  padding-top: 10em;
+  padding-top: 4em;
   padding-left: 1.8em;
   font-family: Arial, Helvetica, sans-serif;
   /* Removed additional font family */

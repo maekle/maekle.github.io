@@ -181,6 +181,8 @@ a {
 }
 .about-content {
   position: relative;
+  vertical-align: center;
+    align-content: center;
   background-color: inherit;
   padding-top: 4em;
   width: max-content;

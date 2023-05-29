@@ -80,7 +80,7 @@ a {
   position: relative;
   font-size: 180%;
   /* Changed font size unit from em to percentage */
-  padding-top: 4em;
+  padding-top: 0;
   padding-left: 1.8em;
   font-family: Arial, Helvetica, sans-serif;
   /* Removed additional font family */

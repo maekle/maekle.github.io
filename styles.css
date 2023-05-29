@@ -179,6 +179,13 @@ a {
 .dropdown-menu-item:hover {
   background-color: #05214b;
 }
+.about-content {
+  position: relative;
+  background-color: inherit;
+  padding-top: 4em;
+  width: max-content;
+  height: max-content
+}
 .footer {
   position: fixed;
   left: 0;

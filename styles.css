@@ -182,9 +182,10 @@ a {
 .about-content {
   position: relative;
   vertical-align: center;
-    align-content: center;
+  align-content: center;
   background-color: inherit;
-  padding-top: 4em;
+  text-align: center;
+    padding-top: 10em;
   width: max-content;
   height: max-content
 }

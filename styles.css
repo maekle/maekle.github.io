@@ -9,7 +9,7 @@ body {
   text-align: center;
   top: 2px;
   font-family: Arial, Helvetica, sans-serif;
-  cursor: url(‘/images/reg.png’), url(‘/images/reg.cur’), auto;
+  cursor: url(‘/images/reg.png’), url(‘/images/reg.gif’), url(‘/images/reg.cur’), auto;
 }
 
 h1 {

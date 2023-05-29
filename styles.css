@@ -100,7 +100,7 @@ a {
 }
 
 .div-main {
-  position: relative;
+  position: absolute;
   font-size: 180%;
   /* Changed font size unit from em to percentage */
   padding-top: 0;
@@ -127,7 +127,8 @@ a {
 }
 
 .contact {
-  text-align: left;
+  position: relative;
+    text-align: center;
   padding: 10%;
 }
 

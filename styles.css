@@ -6,6 +6,7 @@ body {
   color: #ffffff;
   padding: 10px;
   position: relative;
+  text-align: center;
   top: 2px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -34,6 +35,7 @@ p {
   left: 0;
   padding-top: 0;
   padding-left: 0;
+  text-align: center;
   position: relative;
 }
 .tableHead {
@@ -67,7 +69,7 @@ p {
   display: inline-block;
   max-width: 800px;
   margin: 20 auto;
-  text-align: justify;
+  text-align: center;
     font-family: Arial, Helvetica, serif;
     font-size: larger;
   /* Removed additional font family */
@@ -159,7 +161,7 @@ a {
   text-align: right;
   position: absolute;
   top: 45px;
-    right: -100px;
+  right: -100px;
   display: block;
   opacity: 0;
   transition: opacity .8s ease;
@@ -175,7 +177,7 @@ a {
 .dropdown-menu-item {
   cursor: pointer;
   padding: 0.4em;
-  text-align: left;
+  text-aligh: center;
 }
 
 .dropdown-menu-item:hover {
@@ -196,7 +198,7 @@ a {
   position: relative;
   align-content: center;
   text-align: center;
-  pading-top: 2em;
+  padding-top: 2em;
 }
 .footer {
   position: fixed;

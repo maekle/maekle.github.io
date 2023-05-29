@@ -9,7 +9,7 @@ body {
   text-align: center;
   top: 2px;
   font-family: Arial, Helvetica, sans-serif;
-  cursor: url(‘/images/reg.png’), , auto;
+  cursor: url("/images/reg.gif"), auto;
 }
 
 h1 {
@@ -85,7 +85,6 @@ li {
 a {
   text-decoration: none;
     color: #ffffff;
-    cursor: url("/images/reg.png"), url("/images/reg.cur"), default;
   
   }
   

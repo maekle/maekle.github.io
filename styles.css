@@ -103,6 +103,7 @@ a {
   /* Changed font size unit from em to percentage */
   padding-top: 0;
   padding-left: 1.8em;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   /* Removed additional font family */
 }
@@ -148,8 +149,8 @@ a {
   font-size: 24px;
   font-weight: bold;
   transform: rotate(90deg);
-  top: -20px;
-  right: -20px;
+  top: 0px;
+    right: 0px;
 }
 
 .dropdown-menu {
@@ -157,11 +158,11 @@ a {
   display: inline;
   text-align: right;
   position: absolute;
-  top: 40px;
-  right: -160px;
+  top: 45px;
+    right: -100px;
   display: block;
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity .8s ease;
   width: 200px;
   font-family: inherit;
   /* Removed additional font family */
@@ -187,7 +188,7 @@ a {
   align-content: center;
   background-color: inherit;
   text-align: center;
-    padding-top: 10em;
+    padding-top: 2em;
   width: max-content;
   height: max-content
 }

@@ -109,7 +109,7 @@ a {
 .dropdown-trigger::after {
   content: "›";
   position: absolute;
-  color: #ffffff;
+  color: #fdfafa;
   font-size: 24px;
   font-weight: bold;
   transform: rotate(90deg);

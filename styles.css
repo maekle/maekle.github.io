@@ -16,7 +16,7 @@ h1 {
   /* Used a more readable color */
 }
 
-h8 {
+h7 {
   font-size: medium;
 }
 
@@ -84,6 +84,7 @@ li {
 a {
   text-decoration: none;
     color: #ffffff;
+    cursor: url("/images/reg.cur"), default;
   
   }
   

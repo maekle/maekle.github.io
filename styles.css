@@ -179,6 +179,7 @@ a {
 .dropdown-menu-item:hover {
   background-color: #05214b;
 }
+
 .about-content {
   position: relative;
   vertical-align: center;
@@ -188,6 +189,12 @@ a {
     padding-top: 10em;
   width: max-content;
   height: max-content
+}
+.image-div {
+  position: relative;
+  align-content: center;
+  text-align: center;
+  pading-top: 2em;
 }
 .footer {
   position: fixed;

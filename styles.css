@@ -177,7 +177,7 @@ a {
 .dropdown-menu-item {
   cursor: pointer;
   padding: 0.4em;
-  text-aligh: center;
+  text-align: center;
 }
 
 .dropdown-menu-item:hover {
@@ -187,12 +187,10 @@ a {
 .about-content {
   position: relative;
   vertical-align: center;
-  align-content: center;
   background-color: inherit;
   text-align: center;
     padding-top: 2em;
-  width: max-content;
-  height: max-content
+  height: max-content;
 }
 .image-div {
   position: relative;

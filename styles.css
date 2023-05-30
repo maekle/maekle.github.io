@@ -175,11 +175,11 @@ a {
   text-align: right;
   position: absolute;
   top: 45px;
-  right: -100px;
+  right: -0px;
   display: block;
   opacity: 0;
   transition: opacity .8s ease;
-  width: 200px;
+  width: 4em;
   font-family: inherit;
   /* Removed additional font family */
 }
@@ -190,7 +190,7 @@ a {
 
 .dropdown-menu-item {
   cursor: pointer;
-  padding: 0.4em;
+  padding: 0.2em;
   text-align: center;
 }
 

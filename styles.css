@@ -179,7 +179,7 @@ a {
   display: block;
   opacity: 0;
   transition: opacity .8s ease;
-  width: 4em;
+  width: 5.4em;
   font-family: inherit;
   /* Removed additional font family */
 }
